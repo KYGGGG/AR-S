@@ -1,4 +1,4 @@
-# AR-S: Intelligent Civil Complaint Response System
+# AR-S: AI Response System
 
 AR-S is an end-to-end AI pipeline for processing voice-based civil complaints. It converts incoming audio into text, summarizes the request, classifies the responsible organization and complaint category, and retrieves a relevant response from a vector database.
 
