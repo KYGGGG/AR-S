@@ -115,14 +115,6 @@ Model artifacts and generated databases are excluded from Git because of their s
 
 All application paths resolve from `/opt/hackathon` by default. To deploy the project elsewhere, set `HACKATHON_ROOT` to another absolute Linux path.
 
-## Environment Variables
+## Acknowledgement
 
-Create a local `.env` file when OpenAI-based response refinement is enabled:
-
-```dotenv
-HACKATHON_ROOT=/opt/hackathon
-OPENAI_API_KEY=your_api_key_here
-```
-
-The `.env` file is ignored by Git and must never be committed.
-
+This repository was developed with support from the 서울시립대학교 데이터 사이언스 플러스 차세대 융합인재 양성사업단 - http://dsplus.uos.ac.kr/
