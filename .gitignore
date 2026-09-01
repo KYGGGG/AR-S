@@ -1,0 +1,53 @@
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Runtime outputs
+temp_audio/
+result.json
+results.json
+*.log
+
+# Local audio samples
+*.mp3
+*.wav
+*.m4a
+
+# Large model and training artifacts
+Kobert/Data/checkpoint.pt
+Summarization/output_qwen/
+Summarization/Qwen/
+*.safetensors
+*.ckpt
+
+# Generated vector database
+RAG/db_path/
+
+# Complaint datasets may contain personal information
+Kobert/Data/merged_all.csv
+Kobert/Result/*.csv
+RAG/add_qa_data.csv
+RAG/classified_qa_data.csv
+RAG/Preprocessing/merged_data.json
+RAG/Preprocessing/qa_data.csv
+
+# Historical working files and submission documents
+해커톤/
+
+# IDE and OS metadata
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
